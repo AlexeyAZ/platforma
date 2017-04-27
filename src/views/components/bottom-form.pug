@@ -1,10 +1,25 @@
 div#bottomFormContainer.bottom-form-container
+    p.text.text_xxl.ta-center.bold.mb1.
+        Отправьте заявку на проверку вашего города
     form(data-next="#bigForm")#bottomForm.bottom-form
         label.bottom-form__label
-            input(type="text" name="city" placeholder="Ваш город" required).input.input_city
+            input(type="text" name="city" placeholder="Ваш город" required).input
         label.bottom-form__label
-            input(type="text" name="phone" placeholder="Телефон" required).input.input_phone
+            input(type="text" name="phone" placeholder="Телефон" required).input
         label.bottom-form__label
             input(type="email" name="email" placeholder="E-mail" required).input
         button.btn-round.bottom-form__btn.
             Проверить
+    div.bottom-form__notes
+        p.text.text_s.bottom-form__notes-title.
+            Мы перезвоним и расскажем:
+        div.bottom-form__notes-list
+            div.bottom-form__notes-list-item
+                p.text.text_xs.
+                    подходит ли он для открытия
+            div.bottom-form__notes-list-item
+                p.text.text_xs.
+                    можно ли сэкономить на инвестициях
+            div.bottom-form__notes-list-item
+                p.text.text_xs.
+                    есть ли в вашем городе люди, с которыми мы уже ведём переговоры по открытию 

@@ -10,9 +10,22 @@
     color: white;
 }
 
+.color-blue {
+    color: $main-blue;
+}
+
+.color-red {
+    color: $main-red;
+}
+
 .bold {
     font-weight: bold;
 }
+
+.semibold {
+    //font-weight: bold;
+}
+
 
 .mb0 {
     margin-bottom: 0;

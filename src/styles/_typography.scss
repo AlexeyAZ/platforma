@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, p {
 .text {
 
     &_xs {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media(w1024) {
             
@@ -13,27 +13,66 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     &_s {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     &_m {
-        font-size: 30px;
+        font-size: 25px;
+
+        @include media(w768) {
+            font-size: 21px;
+        }
     }
     
     &_l {
-        font-size: 35px;
+        font-size: 28px;
+
+        @include media(w768) {
+            font-size: 20px;
+        }
     }
     
     &_xl {
-        font-size: 40px;
+        font-size: 30px;
+
+        @include media(w768) {
+            font-size: 25px;
+        }
     }
     
     &_xxl {
-        font-size: 47px;
+        font-size: 35px;
+
+        @include media(w768) {
+            font-size: 25px;
+        }
     }
 
     
     &_x {
         font-size: 60px;
+    }
+}
+
+h2 {
+    font-size: 74px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include media(w1024) {
+        font-size: 48px;
+    }
+
+    @include media(w768) {
+        font-size: 23px;
+    }
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: bold;
+
+    @include media(w768) {
+        font-size: 22px;
     }
 }

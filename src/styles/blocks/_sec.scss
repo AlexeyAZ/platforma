@@ -3,4 +3,118 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    &__row {
+        display: flex;
+
+        @include media(w1024) {
+            flex-direction: column;
+        }
+    }
+
+    &__col {
+
+        &_half {
+            width: 50%;
+
+            @include media(w1024) {
+                text-align: center;
+                margin-bottom: 30px;
+                width: 100%;
+            }
+        }
+    }
+
+    &__photo-container {
+        display: inline-block;
+        position: relative;
+
+        @include media(w768) {
+            display: block;
+        }
+    }
+
+    &__photo {
+
+        @include media(w768) {
+            max-width: 70%;
+        }
+
+        &_top {
+            transform: translate(50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 0;
+
+            @include media(w768) {
+                transform: translate(0, -50%);
+                left: 50%;
+                width: 50%;
+            }
+        }
+    }
+
+    &__tborder {
+        border: 3px solid #d6d9e1;
+        padding: 25px 50px 40px 110px;
+        position: relative;
+        margin-left: -70px;
+        margin-bottom: 30px;
+        min-width: calc(100% + 50px);
+
+        @include media(w1024) {
+            text-align: left;
+        }
+
+        @include media(w768) {
+            border-left: none;
+            border-right: none;
+            text-align: center;
+            margin-right: -18px;
+            margin-left: -18px;
+            padding: 20px;
+            min-width: auto;
+        }
+    }
+
+    &__part {
+        color: $main-red;
+        border-bottom: 2px solid currentColor;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        position: absolute;
+        right: -16px;
+        bottom: 20px;
+        z-index: -1;
+
+        @include media(w768) {
+            display: none;
+        }
+    }
+
+    &__text {
+        padding-left: 40px;
+        padding-right: 80px;
+
+        @include media(w1024) {
+            text-align: left;
+        }
+
+        @include media(w768) {
+            text-align: center;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &__circle {
+        border-color: #e3e1e1;
+        border-style: solid;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 0;
+    }
 }
