@@ -1,5 +1,5 @@
 $form-input-border: #8f8f8f;
-$form-input-bg: #e1e1e1;
+$form-input-bg: white;
 
 $form-input-height: 62px;
 $form-input-padding: 25px;
@@ -115,12 +115,17 @@ $form-input-padding: 25px;
     &__select {
         background-color: $form-input-bg;
         border: 1px solid $form-input-border;
+        border-radius: $form-input-height / 2;
         color: #3f3e3c;
         font-size: 22px;
         margin-bottom: 20px;
         padding: 0 $form-input-padding;
         height: $form-input-height;
         width: 100%;
+
+        @include media(w768) {
+            font-size: 18px;
+        }
     }
 
     &__input {
@@ -129,17 +134,23 @@ $form-input-padding: 25px;
         }
         background-color: $form-input-bg;
         border: 1px solid $form-input-border;
+        border-radius: $form-input-height / 2;
         color: #3f3e3c;
         font-size: 22px;
         margin-bottom: 20px;
         padding: 0 $form-input-padding;
         height: $form-input-height;
         width: 100%;
+
+        @include media(w768) {
+            font-size: 18px;
+        }
     }
 
     &__btn {
         position: relative;
         font-size: 22px;
+        width: 100%;
 
         &_center {
             display: block;
@@ -165,6 +176,10 @@ $form-input-padding: 25px;
                     left: calc(100% + 20px);
                 }
             }
+        }
+
+        @include media(w768) {
+            font-size: 18px;
         }
     }
 }

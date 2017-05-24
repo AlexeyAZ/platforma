@@ -1,31 +1,66 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "RobotoRegular";
-  src: url("../fonts/Roboto/roboto-regular.eot");
-  src: url("../fonts/Roboto/roboto-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-regular.woff2") format("woff2"), url("../fonts/Roboto/roboto-regular.woff") format("woff"), url("../fonts/Roboto/roboto-regular.ttf") format("truetype"), url("../fonts/Roboto/roboto-regular.svg#svgFontName") format("svg");
-  font-style: normal;
-  font-weight: normal; }
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Regular.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Regular.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Regular.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Regular.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Regular.svg#SFUIDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-  font-family: "RobotoMedium";
-  src: url("../fonts/Roboto/roboto-medium.eot");
-  src: url("../fonts/Roboto/roboto-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-medium.woff2") format("woff2"), url("../fonts/Roboto/roboto-medium.woff") format("woff"), url("../fonts/Roboto/roboto-medium.ttf") format("truetype"), url("../fonts/Roboto/roboto-medium.svg#svgFontName") format("svg");
-  font-style: normal;
-  font-weight: normal; }
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Heavy.svg#SFUIDisplay-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
 
 @font-face {
-  font-family: "RobotoLight";
-  src: url("../fonts/Roboto/roboto-light.eot");
-  src: url("../fonts/Roboto/roboto-light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-light.woff2") format("woff2"), url("../fonts/Roboto/roboto-light.woff") format("woff"), url("../fonts/Roboto/roboto-light.ttf") format("truetype"), url("../fonts/Roboto/roboto-light.svg#svgFontName") format("svg");
-  font-style: normal;
-  font-weight: normal; }
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Black.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Black.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Black.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Black.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Black.svg#SFUIDisplay-Black") format("svg");
+  font-weight: 300;
+  font-style: normal; }
 
 @font-face {
-  font-family: "RobotoBold";
-  src: url("../fonts/Roboto/roboto-bold.eot");
-  src: url("../fonts/Roboto/roboto-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-bold.woff2") format("woff2"), url("../fonts/Roboto/roboto-bold.woff") format("woff"), url("../fonts/Roboto/roboto-bold.ttf") format("truetype"), url("../fonts/Roboto/roboto-bold.svg#svgFontName") format("svg");
-  font-style: normal;
-  font-weight: normal; }
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Bold.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Bold.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Bold.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Bold.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Bold.svg#SFUIDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Ultralight.svg#SFUIDisplay-Ultralight") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Semibold.svg#SFUIDisplay-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Thin.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Thin.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Thin.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Thin.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Thin.svg#SFUIDisplay-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Medium.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Medium.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Medium.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Medium.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Medium.svg#SFUIDisplay-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Light.eot");
+  src: url("../fonts/SFUIDisplay/SFUIDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUIDisplay/SFUIDisplay-Light.woff2") format("woff2"), url("../fonts/SFUIDisplay/SFUIDisplay-Light.woff") format("woff"), url("../fonts/SFUIDisplay/SFUIDisplay-Light.ttf") format("truetype"), url("../fonts/SFUIDisplay/SFUIDisplay-Light.svg#SFUIDisplay-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
 
 .ta-center {
   text-align: center; }
@@ -44,6 +79,12 @@
 
 .bold {
   font-weight: bold; }
+
+.semibold {
+  font-weight: 600; }
+
+.light {
+  font-weight: 300; }
 
 .mb0 {
   margin-bottom: 0; }
@@ -2430,6 +2471,7 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
+  font-family: 'SF UI Display';
   line-height: 1.2;
   position: relative;
   min-width: 320px; }
@@ -2628,6 +2670,10 @@ a.btn-round {
   to {
     box-shadow: 0 0 18px 6px rgba(255, 48, 26, 0), 0 0 4px 71px rgba(255, 48, 26, 0); } }
 
+input,
+select {
+  outline: none; }
+
 .input {
   background-color: white;
   background-repeat: no-repeat;
@@ -2772,18 +2818,23 @@ a.btn-round {
     margin-bottom: 4px; }
 
 .form__select {
-  background-color: #e1e1e1;
+  background-color: white;
   border: 1px solid #8f8f8f;
+  border-radius: 31px;
   color: #3f3e3c;
   font-size: 22px;
   margin-bottom: 20px;
   padding: 0 25px;
   height: 62px;
   width: 100%; }
+  @media only screen and (max-width: 768px) {
+    .form__select {
+      font-size: 18px; } }
 
 .form__input {
-  background-color: #e1e1e1;
+  background-color: white;
   border: 1px solid #8f8f8f;
+  border-radius: 31px;
   color: #3f3e3c;
   font-size: 22px;
   margin-bottom: 20px;
@@ -2798,10 +2849,14 @@ a.btn-round {
     color: #3f3e3c; }
   .form__input:-ms-input-placeholder {
     color: #3f3e3c; }
+  @media only screen and (max-width: 768px) {
+    .form__input {
+      font-size: 18px; } }
 
 .form__btn {
   position: relative;
-  font-size: 22px; }
+  font-size: 22px;
+  width: 100%; }
   .form__btn_center {
     display: block;
     margin-left: auto;
@@ -2821,6 +2876,9 @@ a.btn-round {
       .form__btn_size:after {
         font-size: 16px;
         left: calc(100% + 20px); } }
+  @media only screen and (max-width: 768px) {
+    .form__btn {
+      font-size: 18px; } }
 
 .phone {
   background-position: left center;
@@ -2843,24 +2901,19 @@ a {
     font-size: 14px; }
 
 .thanks {
-  background-image: url("../img/sec1-bg.jpg");
-  padding-top: 30px;
-  padding-bottom: 160px; }
-  @media only screen and (max-width: 1024px) {
-    .thanks {
-      padding-bottom: 200px; } }
+  background-image: url("../img/sec1-bg.png"), linear-gradient(to right bottom, #00285a, #001142);
+  overflow: hidden; }
   .thanks__heading {
-    border-bottom: 2px solid white;
-    font-family: 'Qanelas', sans-serif;
-    font-weight: 800;
-    font-size: 75px;
+    font-weight: bold;
+    font-size: 54px;
+    text-transform: uppercase;
     padding-bottom: 0.4em; }
     @media only screen and (max-width: 1024px) {
       .thanks__heading {
-        font-size: 50px; } }
+        font-size: 40px; } }
     @media only screen and (max-width: 768px) {
       .thanks__heading {
-        font-size: 40px; } }
+        font-size: 30px; } }
   .thanks__title {
     font-size: 58px;
     margin-bottom: 1em; }
@@ -3506,8 +3559,36 @@ a {
   height: 1em;
   fill: currentColor; }
 
+.icon-header-logo {
+  font-size: 7.5rem;
+  width: 8.07733em; }
+
 .icon-icon-download {
   font-size: 3.07rem;
   width: 1.04235em; }
+
+.icon-sec5-icon1 {
+  font-size: 12.98rem;
+  width: 0.51387em; }
+
+.icon-sec5-icon2 {
+  font-size: 11.95rem;
+  width: 0.92636em; }
+
+.icon-sec5-icon3 {
+  font-size: 10.3rem;
+  width: 1em; }
+
+.icon-sec5-icon4 {
+  font-size: 9.45rem;
+  width: 0.91534em; }
+
+.icon-sec5-icon5 {
+  font-size: 9.71rem;
+  width: 1.04531em; }
+
+.icon-sec5-icon6 {
+  font-size: 10rem;
+  width: 0.965em; }
 
 /*# sourceMappingURL=main.css.map */

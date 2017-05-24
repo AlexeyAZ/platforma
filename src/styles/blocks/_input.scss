@@ -1,3 +1,8 @@
+input,
+select {
+    outline: none;
+}
+
 .input {
     @include placeholder {
         color: black;

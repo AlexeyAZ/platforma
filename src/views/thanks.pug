@@ -1,20 +1,24 @@
 extends templates/layout
 
 block vars
-    - var title = 'Main'
+    - var title = 'Платформа'
 
 block content
     section.sec.thanks
         include components/header
-        div.container
-            p.thanks__heading.
+        div.container.ta-center.color-white
+            div.sec1__border.sec1__border_top
+                p.text.text_l.mb1.
+            p.thanks__heading
                 <span id="thanksName"></span>наши</span> менеджеры уже занимаются вашей заявкой
             p.thanks__title.
                 Мы свяжемся с Вами в ближайшее время
-            div.thanks__buttons
-                a(href="doc/mk.pdf" target="_blank").btn-round.btn-round_download.
-                    Открыть презентацию
-                a(href="/index.html").thanks__links-link.
-                    Вернуться на сайт
             p.thanks__subtitle.
-                График работы с 9.00 до 23.00 Поэтому, если вы оставили заявку в нерабочее время, мы перезвоним вам на следующий рабочий день
+                График работы с 9.00 до 18.00 Поэтому, если вы оставили заявку в нерабочее время, мы перезвоним вам на следующий рабочий день
+            div.sec1__border.sec1__border_bottom
+                div.thanks__buttons
+                    a(href="doc/mk.pdf" target="_blank").btn-round.btn-round_download.btn-round_clear.
+                        Открыть презентацию
+                    a(href="/index.html").thanks__buttons-link.light.
+                        Вернуться на сайт
+                img(src="img/sec1-table.png", alt="").sec1__border-img
